@@ -1,5 +1,5 @@
 # State Space Model POS Tagger
-This project implements a state space model-based Part-of-Speech tagger using MATLAB.
+In this project, I developed a Part-of-Speech (POS) tagging system using a selective State Space Model architecture. The code consisted of a single-layer network with an embedding dimension of 64 and handled sequences of length 4. I made use of pre-trained word2vec embeddings and I worked with the CoNLL 2003 dataset, splitting the original 46 POS tags into four essential categories: Nouns (including pronouns), Verbs, Adjectives/Adverbs, and an Other category.
 
 ## Prerequisites
 
